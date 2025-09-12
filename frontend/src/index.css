@@ -1,0 +1,99 @@
+General layout
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+/* App container */
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  background: #222;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card h1 {
+  color: #4ade80;
+  margin-bottom: 20px;
+}
+
+/* Stock form */
+.stock-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.stock-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #333;
+  color: #fff;
+  font-size: 16px;
+}
+
+.stock-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #4ade80;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.stock-form button:hover {
+  background: #22c55e;
+}
+
+/* Loading */
+.loading {
+  color: #facc15;
+  margin-top: 10px;
+}
+
+/* Results */
+.result {
+  background: #333;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.result h2 {
+  color: #4ade80;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: #f87171;
+  margin-top: 10px;
+}
+
+/* Graph */
+.graph img {
+  margin-top: 15px;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+
